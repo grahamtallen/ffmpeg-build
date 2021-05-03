@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  package-linux:
+  package-linuxx:
     runs-on: ubuntu-latest
     container: quay.io/acoustid/chromaprint-build-base:xenial
     strategy:
