@@ -18,6 +18,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Build
         run: |
+          echo 'Running Linux Build'
           mkdir artifacts
           ./build-linux.sh
           mv ffmpeg-*-audio-linux-* artifacts
